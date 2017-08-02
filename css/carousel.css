@@ -99,13 +99,13 @@ input, textarea {
 
 .jumbotron {
   margin-bottom: 0px;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/grass.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/house.jpg");
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
     height: 25em;
+    text-shadow: black 0.3em 0.3em 0.3em;
     margin-bottom: 6em;
     box-shadow: 0 8px 6px -6px black;
 }
@@ -137,8 +137,9 @@ input, textarea {
   padding: .1em;
 }
 
-#top-row p {
-
+.marketing #top-row p {
+  font-size: 1em;
+  font-weight: 400;
 }
 
 /* MARKETING CONTENT
@@ -159,15 +160,6 @@ input, textarea {
   font-size: .8em;
 }
 
-#banner {
-  height: 15em;
-  width: 50%;
-  text-align: center;
-  background-color: black;
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 
 /* Featurettes
@@ -175,6 +167,7 @@ input, textarea {
 
 .featurette-divider {
   margin: 20px 0; /* Space out the Bootstrap <hr> more */
+  width: 100%;
 }
 
 /* Thin out the marketing headings */
@@ -188,16 +181,12 @@ input, textarea {
 
 }
 
-#featurette-subheading1 {
-  color: #2f2f35;
-  text-align: center;
-}
 
 #featurette1 {
-  background-color: #f8f8f8;
+/*  background-color: #f8f8f8; */
   padding-bottom: 75px;
   color: #2f2f35;
-  height: 38em;
+  height: 25em;
 }
 
 .subparagraph {
@@ -207,18 +196,6 @@ input, textarea {
   line-height: 1.7;
 }
 
-.service-list{
-  list-style: none;
-  padding-left: 0;
-  margin-top: 2em;
-}
-
-.service-list li {
-  display: inline-block;
-  font-size: .6em;
-  text-transform: uppercase;
-  padding-right: 1.5px;
-}
 
 /* CONTACT FORM ***************************************/
 .contact-form {
@@ -371,29 +348,31 @@ footer li {
 
   .navbar-nav {
     float:right;
-    width: 20%;
+    margin-right: -15px;
   }
 
   .nav li {
-    width: 20%;
-    padding-right: 5em;
     padding-top: 1em;
+    float: left;
+    display: 0;
+    width: auto;
+    text-transform: uppercase;
   }
 
   .navbar-inverse .navbar-nav > li > a {
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: white;
     font-family: 'Oswald', sans-serif;
 
   }
 
   .jumbotron {
-    height: 30em;
+    height: 42em;
   }
 
   .jumbotron h1 {
     font-size: 4em;
-    margin-top: 1em;
+    margin-top: 2em;
   }
 
   .jumbotron p {
@@ -432,16 +411,10 @@ footer li {
 
   }
 
-  #featurette-subheading1 {
-    text-align: center;
-    line-height: 1.2;
-    letter-spacing: 2px;
-    margin-bottom: 10em;
-  }
 
   #featurette1 {
     padding-bottom: 75px;
-    height: 50em;
+    height: 38em;
 
   }
 
@@ -470,7 +443,7 @@ footer li {
   }
 
   h3 {
-    font-size: 3em;
+    font-size: 1.4em;
   }
 
   .featurette-heading {
