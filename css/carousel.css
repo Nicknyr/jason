@@ -196,6 +196,16 @@ input, textarea {
   line-height: 1.7;
 }
 
+/* IMAGE GALLERY **************************************/
+.page-header {
+  border: none;
+}
+
+.gallery-section {
+  margin-top: ;
+}
+
+
 
 /* CONTACT FORM ***************************************/
 .contact-form {
@@ -407,7 +417,8 @@ footer li {
     line-height: 1;
     letter-spacing: -1px;
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
+    padding-bottom: .5em;
 
   }
 

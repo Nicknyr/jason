@@ -25,6 +25,10 @@
       <link href="css/carousel.css" rel="stylesheet">
       <script src="https://use.fontawesome.com/e163940e8d.js"></script>
       <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Oswald" rel="stylesheet">
+
+      <!-- FANCYBOX3 STYLE SHEET -->
+      <link rel="stylesheet" href="jquery.fancybox.min.css">
+
    </head>
    <!-- NAVBAR
       ================================================== -->
@@ -87,7 +91,7 @@
         <div class="row featurette" id="featurette1">
            <div class="col-md-8 col-md-offset-2">
               <h2 id="featurette-heading1">About Us</h2>
-                <p class="lead">We take care of all your landscaping and maintenance needs</p>
+
               <!-- <div class="col-lg-4 col-md-4">
                  <h3 class="featurette-subheading">Serving the tri-state area inluding NY, NJ, and PA</h3>
               </div> -->
@@ -100,8 +104,62 @@
         </div>
 
         <hr class="featurette-divider">
+
+
+    <div class="row gallery-section">
+
+    <div class="col-lg-12">
+        <h1 id="featurette-heading1">Recent work</h1>
+    </div>
+
+    <!-- Example image for gallery
+    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+        <a class="thumbnail" href="#" data-toggle="lightbox">
+            <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+        </a>
+    </div> -->
+
+    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="images/project1.jpg" data-caption="Image 1" data-fancybox="image">
+        <img class="img-responsive" src="images/project1.jpg" alt="Image 1">
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="images/project2.jpg" data-caption="Image 2" data-fancybox="image">
+        <img class="img-responsive" src="images/project2.jpg" alt="Image 2">
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="images/project3.jpg" data-caption="Image 3" data-fancybox="image">
+        <img class="img-responsive" src="images/project3.jpg" alt="Image 3">
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="images/project4.jpg" data-caption="Image 4" data-fancybox="image">
+        <img class="img-responsive" src="images/project4.jpg" alt="Image 4">
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="images/project5.jpg" data-caption="Image 5" data-fancybox="image">
+        <img class="img-responsive" src="images/project5.jpg" alt="Image 5">
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+      <a class="thumbnail" href="images/shed.jpg" data-caption="Image 6" data-fancybox="image">
+        <img class="img-responsive" src="images/shed.jpg" alt="Image 6">
+      </a>
+    </div>
+
+
+</div>
          <!--/END THE FEATURETTES -->
       </div>
+      <hr class="featurette-divider">
       <!-- /.container -->
       <section class="contact-form" id="contact-scroll">
          <div class="contact">
@@ -167,5 +225,11 @@
       <script src="../../assets/js/vendor/holder.min.js"></script>
       <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
       <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+      <!-- FANCYBOX SCRIPTS -->
+      <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+      <script src="jquery.fancybox.min.js"></script>
+
+      <script src="app.js"></script>
    </body>
 </html>
