@@ -202,8 +202,47 @@ input, textarea {
 }
 
 .gallery-section {
-  margin-top: ;
+  display: block;
+  overflow: hidden;
 }
+
+
+/*.marketing .col-lg-4 {
+  width: 100%;
+}*/
+
+.crop {
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.crop img {
+ height: 200px;
+ width: 250px;
+ 
+}
+
+.col-xs-6 {
+  width: 100%;
+  overflow: contain;
+}
+
+
+/*.crop {
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.crop img {
+ height: 250px;
+ width: 400px;
+} */
 
 
 
@@ -436,6 +475,29 @@ footer li {
     line-height: 2;
     padding-left: 1em;
   }
+
+  /* FANCYBOX GALLERY *************************/
+  .crop {
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+  }
+
+  .crop img {
+   height: 250px;
+   width: 400px;
+  }
+
+  .gallery-section {
+    display: block;
+    overflow: inherit;
+  }
+
+  .col-xs-6 {
+    width: 33%;
+  }
+
+  /**********************************************/
 
   .contact-form {
     width: 100%;
